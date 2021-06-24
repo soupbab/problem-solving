@@ -1,6 +1,5 @@
 import sys
 
-
 n = int(sys.stdin.readline().strip())
 switches = list(map(int ,sys.stdin.readline().strip().split()))
 m = int(sys.stdin.readline().strip())
