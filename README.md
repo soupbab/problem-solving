@@ -43,7 +43,7 @@
         <td align="center" width="130px">
             <a href="https://github.com/soupbab"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/67000572?v=4"/></a>
             <br />
-            <a href="https://github.com/soupbab">kim1109123</a>
+            <a href="https://github.com/soupbab">soupbab</a>
         </td>
         <td align="center" width="130px">
             <a href="https://github.com/yskim1014"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/68675162?v=4"/></a>
