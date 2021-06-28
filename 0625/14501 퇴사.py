@@ -6,8 +6,9 @@ def consulting(day):
         return 0
 
     time, profit = schedule[day]
+
     if day + time > len(schedule):
-        return 0
+        return consulting(day + 1)
     else:
         return max(profit + consulting(day + time), consulting(day + 1))
 
@@ -20,7 +21,4 @@ if __name__ == "__main__":
  
     money = consulting(day)
 
-    # print(money)
-    a = 3 + 1
-    b = 4 + 0
-    print(max(a, b))
+    print(money)
