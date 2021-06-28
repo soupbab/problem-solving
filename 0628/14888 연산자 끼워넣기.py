@@ -38,3 +38,5 @@ if __name__ == "__main__":
     operator_counts = list(map(int, input().strip().split()))
 
     calculate()
+
+# 참고하면 좋을 코드 https://www.acmicpc.net/source/10510964
