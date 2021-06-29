@@ -27,3 +27,5 @@ if __name__ == "__main__":
     sequence = list(map(int, input().strip().split()))
 
     find_sequence()
+
+# two pointer  https://velog.io/@koyo/python-two-pointer
