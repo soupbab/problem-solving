@@ -1,0 +1,37 @@
+## 좋은 풀이 : https://rhdtka21.tistory.com/129
+
+
+def binary_search(start, end, target, array):
+    idx = -1
+
+    while start <= end:
+        mid = (start + end) // 2
+
+        if array[mid] >= target:
+            idx = mid
+            start = mid + 1
+        else:
+            end = mid - 1
+
+    return idx + 1
+
+
+def main():
+    for i in range(1, d):
+        oven[i] = min(oven[i], oven[i-1])
+
+    bottom = len(oven)
+
+    for pd in dough:
+        depth = binary_search(0, bottom-1, pd, oven[:bottom])
+        bottom = depth - 1
+
+    print(depth)
+
+
+if __name__ == "__main__":
+    d, n = map(int, input().split())
+    oven = list(map(int, input().split()))
+    dough = list(map(int, input().split()))
+
+    main()
